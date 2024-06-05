@@ -6,4 +6,7 @@
   a{
     @apply text-blue-800;
   }
+  h1{
+    @apply font-bold text-3xl;
+  }
 }

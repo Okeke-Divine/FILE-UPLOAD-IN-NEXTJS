@@ -26,6 +26,7 @@ const ClientUpload = () => {
   return (
     <>
       <form onSubmit={handleSubmit}>
+        <h1>Client Component</h1>
         <input
           type="file"
           name="file"
