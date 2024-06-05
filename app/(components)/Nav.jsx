@@ -3,6 +3,7 @@ import Link from "next/link";
 const links = [
   { url: "/client", name: "Client Component (App Router)" },
   { url: "/server", name: "Server Component (App Router)" },
+  { url: "/cloudinary", name: "Cloudinary" },
 ];
 
 const Nav = () => {
