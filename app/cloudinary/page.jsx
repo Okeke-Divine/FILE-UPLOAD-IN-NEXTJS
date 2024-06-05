@@ -24,18 +24,16 @@ const Cloudinary = () => {
             },
             function (error, result) {
               if (error) {
-                console.log("Cloudinary error", error)
+                console.log("Cloudinary error", error);
                 reject(error);
                 return;
-              }else{
-                console.log("Cloudinary Success")
               }
               resolve(result);
             }
           )
           .end(buffer);
-          console.log(uploaded_file)
-      });
+        console.log(uploaded_file);
+      }).then((result) => console.log(result))
     } catch (err) {
       console.log("Error: ", err);
     }
